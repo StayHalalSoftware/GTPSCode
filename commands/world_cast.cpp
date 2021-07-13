@@ -3,7 +3,7 @@
 else if (str.substr(0, 7) == "/wcast ") // Credit to StayHalal#8705
 {
   string wcast_msg = str.substr(7, cch.length() - 7 - 1);
-  WorldInfo* wrld = getPlyersWorld(peer);
+  WorldInfo* wrld = GetPlyersWorld(peer);
   PlayerInfo* pData = getPeerData(peer);
   if (pData->rawName == wrld->owner) // Make the command only can be used for world owner
   {
