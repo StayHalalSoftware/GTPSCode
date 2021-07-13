@@ -1,2 +1,2 @@
 # GTPSCode
-My growtopia private server code collection including functions, commands, and the others.
+The growtopia private server code collection including commands, functions, and the others.
